@@ -1,0 +1,70 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 3px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: px;
+    gap: 25px;
+    
+}
+
+#tres{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+#modo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+#div{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+.casilla {
+  width: 100px;
+  height: 100px;
+  background: #727272;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: #d6536f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-around;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.casilla:hover {
+     background: #2a2a2a;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(0, 224, 86, 0.6);
+}
+
+#resetBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body{
+    background-image:
+    url(https://i.redd.it/5ehfso41385e1.png);
+    
+}
+
+p,a{
+
+  color: #1a1a1a;
+  font-size: 20px;
+}

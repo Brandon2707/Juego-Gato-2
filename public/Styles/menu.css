@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at center, #000000 40%, #12180c 100%);
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+
+  background-image: url(https://fastcdn.hoyoverse.com/content-v2/nap/114234/607208f72000fc4ff223405ee8659e02_5372682100512435403.jpg);
+   background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffda37;
+  text-shadow: 0 0 12px #1f1f1f, 0 0 20px #ffb62e;
+}
+
+h3 a {
+  display: inline-block;
+  margin: 20px;
+  padding: 12px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #7a7a7a, #ffb62e);
+  box-shadow: 0 0 12px #ffb62e;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+h3 a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #23d100;
+}

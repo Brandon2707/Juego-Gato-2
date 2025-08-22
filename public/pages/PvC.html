@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3 En Raya</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/pvc.css">
+
+</head>
+<body>
+    <h1 id="tres">3 En Raya </h1>
+
+
+    <button id="boton usuario"><a href="../pages/LoginPvC.html">Iniciar sesion </a></button>
+    
+
+
+    <div id="div">
+        <label id="modo" for="gameMode">Modo de Juego</label>
+        <select id="gameMode">
+            <option value="pvp">Jugador vs Jugador</option>
+            <option value="pvc">Jugador vs Máquina</option>
+            <option value="pvcmid">Jugador Vs Maquina nivel medio</option>
+            <option value="pvchard">Jugador vs Maquina imposible</option>
+
+        </select>
+    </div>
+
+
+    <div id="board">
+        <div class="casilla" id="b1" onclick="makeMove(0)"></div>
+        <div class="casilla" id="b2" onclick="makeMove(1)"></div>
+        <div class="casilla" id="b3" onclick="makeMove(2)"></div>
+
+        <div class="casilla" id="b4" onclick="makeMove(3)"></div>
+        <div class="casilla" id="b5" onclick="makeMove(4)"></div>
+        <div class="casilla" id="b6" onclick="makeMove(5)"></div>
+
+        <div class="casilla" id="b7" onclick="makeMove(6)"></div>
+        <div class="casilla" id="b8" onclick="makeMove(7)"></div>
+        <div class="casilla" id="b9" onclick="makeMove(8)"></div>
+    </div>
+   <p id="print"></p>
+    <button id="resetBtn" onclick="resetGame()">RESET</button>
+
+       <p><a href="../pages/index.html">Volver al Menu</a></p>
+
+    <script src="../js/game.js"></script>
+</body>
+</html>
