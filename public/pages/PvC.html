@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>3 En Raya</title>
     <link rel="stylesheet" type="text/css" href="../Styles/pvc.css">
 
 </head>
+
 <body>
     <h1 id="tres">3 En Raya </h1>
     <button id="boton usuario"><a href="../pages/LoginPvC.html">Iniciar sesion </a></button>
-    
+
 
 
     <div id="div">
@@ -36,21 +38,23 @@
         <div class="casilla" id="b8" onclick="makeMove(7)"></div>
         <div class="casilla" id="b9" onclick="makeMove(8)"></div>
     </div>
-   <p id="print"></p>
+    <p id="print"></p>
     <button id="resetBtn" onclick="resetGame()">RESET</button>
 
-       <p><a href="../pages/index.html">Volver al Menu</a></p>
+    <p><a href="../pages/index.html">Volver al Menu</a></p>
 
-        <div id="music-controls">
+    <div id="music-controls">
         <button id="toggleMusic">Pausar Música</button>
         <label for="volumeControl">Volumen:</label>
         <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
     </div>
 
 
-    <audio id="bgMusic" src="../audio/Balatro - Complete Original Soundtrack (Official) - LouisF.mp3" autoplay loop></audio>
+    <audio id="bgMusic" src="../audio/Balatro - Complete Original Soundtrack (Official) - LouisF.mp3" autoplay
+        loop></audio>
 
     <script type="module" src="../js/index.js"></script>
     <script src="../js/game.js"></script>
 </body>
-</html> 
+
+</html>

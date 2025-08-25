@@ -7,7 +7,8 @@ body {
   padding-top: 80px;
 
   background-image: url(https://fastcdn.hoyoverse.com/content-v2/nap/114234/607208f72000fc4ff223405ee8659e02_5372682100512435403.jpg);
-   background-size: cover;
+   
+   background-size: 100%;
 }
 
 h1 {
